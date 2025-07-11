@@ -1,117 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Unit Converter</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Modern CSS UI -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emmanation Calculator APK - Download Free Android App</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Download the latest version of Emmanation Designs Calculator APK for Android. Fast, reliable, and accurate calculator app built by Emmanation Designs." />
+  <meta name="keywords" content="Emmanation Designs, Calculator APK, free calculator app, Android calculator download, Emmanuel Nwaije, Nigerian developer" />
+  <meta name="author" content="Emmanuel Nwaije" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Download Emmanation Calculator App" />
+  <meta property="og:description" content="Grab the official calculator APK by Emmanation Designs. Simple, fast, and works offline." />
+  <meta property="og:url" content="https://emmanation-designs.github.io/Calculator/" />
+  <meta property="og:type" content="website" />
+  <meta name="google-site-verification" content="uNAaEXsTq8CJKGCG_-2g4Cj0ZlhFvQPTYG45zIgQKCM" />
+
   <style>
-    body {
-      background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
-      font-family: 'Segoe UI', Arial, sans-serif;
+    * {
       margin: 0;
       padding: 0;
-      min-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f5f5f5;
+      font-family: 'Segoe UI', Arial, sans-serif;
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
     }
-    .converter-container {
-      background: #fff;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.13);
-      border-radius: 18px;
-      padding: 2.5rem 2rem 2rem 2rem;
-      min-width: 320px;
-      max-width: 400px;
+
+    .card {
+      background: white;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 450px;
       width: 100%;
     }
-    h1 {
-      text-align: center;
-      color: #3a86ff;
-      letter-spacing: 1px;
-      margin-bottom: 1.5rem;
-      font-size: 2.2rem;
-    }
-    label {
-      font-weight: 600;
+
+    .card h1 {
+      font-size: 26px;
       color: #333;
-      margin-bottom: 6px;
-      display: block;
+      margin-bottom: 15px;
     }
-    select,
-    input[type="number"] {
-      width: 100%;
-      padding: 0.7rem;
-      margin-bottom: 1rem;
-      border: 1px solid #bcd0e0;
-      border-radius: 8px;
-      font-size: 1rem;
-      background: #f7fbff;
-      transition: border 0.2s;
+
+    .card p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 25px;
     }
-    select:focus,
-    input:focus {
-      border: 1.5px solid #3a86ff;
-      outline: none;
-    }
-    button {
-      display: block;
-      width: 100%;
-      background: #3a86ff;
-      color: #fff;
+
+    .download-btn {
+      font-size: 18px;
+      padding: 12px 28px;
+      background-color: blue;
+      color: white;
       border: none;
-      border-radius: 8px;
-      padding: 0.9rem;
-      font-size: 1.1rem;
-      font-weight: bold;
+      border-radius: 6px;
       cursor: pointer;
-      margin-top: 0.5rem;
-      transition: background 0.18s;
+      transition: background 0.3s ease;
     }
-    button:hover {
-      background: #265cc1;
-    }
-    .result {
-      margin-top: 1.3rem;
-      background: #f1f8ff;
-      padding: 1.1rem;
-      border-radius: 8px;
-      text-align: center;
-      font-size: 1.25rem;
-      color: #222;
-      box-shadow: 0 2px 8px rgba(58,134,255,0.04);
-    }
-    @media (max-width: 500px) {
-      .converter-container {
-        padding: 1.1rem 0.5rem 1.5rem 0.5rem;
-        min-width: unset;
-      }
-      h1 {
-        font-size: 1.45rem;
-      }
+
+    .download-btn:hover {
+      background-color: blue;
     }
   </style>
 </head>
 <body>
-  <div class="converter-container">
-    <h1>Unit Converter</h1>
-    <form id="unit-form">
-      <label for="from-unit">From:</label>
-      <select id="from-unit" name="from-unit">
-        <!-- Add your unit options here -->
-      </select>
-      <label for="to-unit">To:</label>
-      <select id="to-unit" name="to-unit">
-        <!-- Add your unit options here -->
-      </select>
-      <label for="value">Value:</label>
-      <input type="number" id="value" name="value" placeholder="Enter value" required>
-      <button type="submit">Convert</button>
-    </form>
-    <div class="result" id="result">
-      <!-- Conversion result will show here -->
-    </div>
+  <div class="card">
+<h1>
+  <img src="icon.jpg" alt="icon" style="width: 24px; height: 30px; vertical-align: middle; margin-right: 8px;">
+  Download Calculator App
+</h1>
+    <p>Click the button below to download the latest version of Emmanation Calculator for Android.</p>
+    <a href="https://github.com/Emmanation-Designs/Unit-Converter/raw/main/Unit%20Converter.apk" download>
+      <button class="download-btn">⬇ Download APK</button>
+    </a>
   </div>
-  <!-- Your JS here -->
 </body>
 </html>
